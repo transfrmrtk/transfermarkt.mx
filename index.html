@@ -1,334 +1,107 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liga de Expansión MX - Apertura 2024 | Transfermarkt</title>
-    <link rel="stylesheet" href="src/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hakim Briano – Perfil de jugador | Transfermarkt.mx</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="https://ext.same-assets.com/4076687155/897989468.ico" />
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-container">
-            <div class="header-left">
-                <div class="logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Transfermarkt_logo.svg/1200px-Transfermarkt_logo.svg.png" alt="Transfermarkt" class="logo-img">
-                </div>
-                <nav class="nav-menu">
-                    <a href="#" class="nav-item">NOTICIAS</a>
-                    <a href="#" class="nav-item">TRANSFERENCIAS</a>
-                    <a href="#" class="nav-item">VALORES DE MERCADO</a>
-                    <a href="#" class="nav-item active">COMPETICIONES</a>
-                    <a href="#" class="nav-item">FOROS</a>
-                    <a href="#" class="nav-item">MI TM</a>
-                    <a href="#" class="nav-item">EN VIVO</a>
-                </nav>
-            </div>
-            <div class="header-right">
-                <div class="search-container">
-                    <input type="text" placeholder="Buscar..." class="search-input">
-                    <button class="search-btn">🔍</button>
-                </div>
-                <div class="user-actions">
-                    <button class="notification-btn">🔔</button>
-                    <button class="profile-btn">👤</button>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <div class="container">
-            <!-- League Header -->
-            <div class="league-header">
-                <div class="league-info">
-                    <div class="league-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Liga_de_expansi%C3%B3n_MX.logopng.png" alt="Liga de Expansión MX" class="league-logo-img">
-                    </div>
-                    <div class="league-details">
-                        <h1 class="league-title">Liga de Expansión MX - Apertura 2024</h1>
-                        <div class="league-meta">
-                            <span class="country">🇲🇽 México</span>
-                            <span class="level">Nivel de liga: Segunda División</span>
-                            <span class="teams">Equipos: 17</span>
-                            <span class="players">Jugadores: 544</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="league-value">
-                    <div class="value-container">
-                        <span class="value-amount">€15.20m</span>
-                        <span class="value-label">Valor total de mercado</span>
-                        <span class="value-date">Última actualización: 15/09/2024</span>
-                    </div>
-                </div>
-            </div>
+  <header class="site-header">
+    <div class="container">
+      <a href="https://www.transfermarkt.mx/" class="logo">
+        <!-- Original SVG logo -->
+        <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="48" stroke="#004b87" stroke-width="4" fill="#f5c518"/>
+          <text x="50%" y="57%" text-anchor="middle" fill="#004b87" font-family="Arial, sans-serif" font-size="48">TM</text>
+        </svg>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="https://www.transfermarkt.mx/">Inicio</a></li>
+          <li><a href="https://www.transfermarkt.mx/spieler-statistik/wertvollstespieler">Estadísticas</a></li>
+          <li><a href="https://www.transfermarkt.mx/transfers/spieler/1064246">Transferencias</a></li>
+          <li><a href="https://www.transfermarkt.mx/marktwertverlauf/spieler/1064246">Valor Mercado</a></li>
+          <li><a href="https://www.transfermarkt.mx/1064246/marktdaten">Datos</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-toggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
 
-            <!-- Navigation Tabs -->
-            <div class="content-tabs">
-                <button class="tab-btn active">TABLA</button>
-                <button class="tab-btn">ESTADÍSTICAS</button>
-                <button class="tab-btn">TRANSFERENCIAS</button>
-                <button class="tab-btn">RUMORES</button>
-                <button class="tab-btn">NOTICIAS</button>
-                <button class="tab-btn">LOGROS</button>
-            </div>
+  <main class="profile">
+    <div class="container profile-header">
+      <img src="https://tmssl.akamaized.net/images/portrait/original/player/1064246-1661954487.jpg" alt="Hakim Briano" class="player-photo" />
+      <div class="player-info">
+        <h1>Hakim Briano</h1>
+        <p><strong>Edad:</strong> 29</p>
+        <p><strong>Club actual:</strong> <a href="https://www.transfermarkt.mx/club-beispiel/verein/123">Club Ejemplo</a></p>
+        <p><strong>Posición:</strong> Delantero</p>
+      </div>
+    </div>
 
-            <!-- League Table -->
-            <div class="league-table-container">
-                <div class="table-header">
-                    <h2>Tabla de posiciones - Apertura 2024</h2>
-                    <div class="table-filters">
-                        <select class="filter-select">
-                            <option>Tabla completa</option>
-                            <option>Local</option>
-                            <option>Visitante</option>
-                        </select>
-                        <span class="matchday">Jornada 12</span>
-                    </div>
-                </div>
+    <section class="stats">
+      <h2>Estadísticas de la temporada</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Competición</th>
+            <th>Partidos</th>
+            <th>Goles</th>
+            <th>Asistencias</th>
+            <th>Minutos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Liga Nacional</td>
+            <td>28</td>
+            <td>15</td>
+            <td>5</td>
+            <td>2300</td>
+          </tr>
+          <tr>
+            <td>Copa Nacional</td>
+            <td>5</td>
+            <td>3</td>
+            <td>1</td>
+            <td>400</td>
+          </tr>
+          <tr>
+            <td>Internacional</td>
+            <td>8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>610</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-                <table class="league-table">
-                    <thead>
-                        <tr>
-                            <th class="pos">#</th>
-                            <th class="team">Equipo</th>
-                            <th class="matches">PJ</th>
-                            <th class="wins">G</th>
-                            <th class="draws">E</th>
-                            <th class="losses">P</th>
-                            <th class="goals">GF</th>
-                            <th class="goals">GC</th>
-                            <th class="diff">DIF</th>
-                            <th class="points">PTS</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table-row promotion">
-                            <td class="pos">1</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <img src="https://static.wikia.nocookie.net/liga-mx/images/2/20/TM23logo.png/revision/latest?cb=20230108220022&path-prefix=es" alt="Tampico Madero" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                                    <div class="team-logo-placeholder" style="background-color: #0066CC; display: none;">TAM</div>
-                                    <span class="team-name">Tampico Madero FC</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>8</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>24</td>
-                            <td>12</td>
-                            <td>+12</td>
-                            <td class="points-value">26</td>
-                        </tr>
-                        <tr class="table-row promotion">
-                            <td class="pos">2</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <div class="team-logo-placeholder" style="background-color: #FF6600;">MOR</div>
-                                    <span class="team-name">Atlético Morelia</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>7</td>
-                            <td>4</td>
-                            <td>1</td>
-                            <td>22</td>
-                            <td>11</td>
-                            <td>+11</td>
-                            <td class="points-value">25</td>
-                        </tr>
-                        <tr class="table-row playoff">
-                            <td class="pos">3</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Celaya_F.C._logo.svg/1200px-Celaya_F.C._logo.svg.png" alt="Celaya FC" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                                    <div class="team-logo-placeholder" style="background-color: #00AA00; display: none;">CEL</div>
-                                    <span class="team-name">Celaya FC</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>7</td>
-                            <td>3</td>
-                            <td>2</td>
-                            <td>19</td>
-                            <td>13</td>
-                            <td>+6</td>
-                            <td class="points-value">24</td>
-                        </tr>
-                        <tr class="table-row playoff">
-                            <td class="pos">4</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <div class="team-logo-placeholder" style="background-color: #FF0000;">CAF</div>
-                                    <span class="team-name">Cafetaleros de Chiapas</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>6</td>
-                            <td>4</td>
-                            <td>2</td>
-                            <td>18</td>
-                            <td>14</td>
-                            <td>+4</td>
-                            <td class="points-value">22</td>
-                        </tr>
-                        <tr class="table-row playoff">
-                            <td class="pos">5</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3432.png" alt="Dorados de Sinaloa" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                                    <div class="team-logo-placeholder" style="background-color: #800080; display: none;">DON</div>
-                                    <span class="team-name">Dorados de Sinaloa</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>6</td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>17</td>
-                            <td>15</td>
-                            <td>+2</td>
-                            <td class="points-value">21</td>
-                        </tr>
-                        <tr class="table-row playoff">
-                            <td class="pos">6</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <div class="team-logo-placeholder" style="background-color: #0000FF;">MIN</div>
-                                    <span class="team-name">Mineros de Zacatecas</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>5</td>
-                            <td>5</td>
-                            <td>2</td>
-                            <td>16</td>
-                            <td>12</td>
-                            <td>+4</td>
-                            <td class="points-value">20</td>
-                        </tr>
-                        <tr class="table-row">
-                            <td class="pos">7</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <div class="team-logo-placeholder" style="background-color: #FFA500;">CAN</div>
-                                    <span class="team-name">Cancún FC</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>5</td>
-                            <td>4</td>
-                            <td>3</td>
-                            <td>15</td>
-                            <td>14</td>
-                            <td>+1</td>
-                            <td class="points-value">19</td>
-                        </tr>
-                        <tr class="table-row">
-                            <td class="pos">8</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <div class="team-logo-placeholder" style="background-color: #228B22;">ATL</div>
-                                    <span class="team-name">Atlante FC</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>4</td>
-                            <td>6</td>
-                            <td>2</td>
-                            <td>14</td>
-                            <td>13</td>
-                            <td>+1</td>
-                            <td class="points-value">18</td>
-                        </tr>
-                        <tr class="table-row">
-                            <td class="pos">9</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <div class="team-logo-placeholder" style="background-color: #8B4513;">COL</div>
-                                    <span class="team-name">Real Colima</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>4</td>
-                            <td>5</td>
-                            <td>3</td>
-                            <td>13</td>
-                            <td>15</td>
-                            <td>-2</td>
-                            <td class="points-value">17</td>
-                        </tr>
-                        <tr class="table-row">
-                            <td class="pos">10</td>
-                            <td class="team">
-                                <div class="team-info">
-                                    <img src="https://a.espncdn.com/guid/ad1afdd8-e4fd-3c4b-9a80-4b80924bed85/logos/default.png" alt="Tlaxcala FC" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                                    <div class="team-logo-placeholder" style="background-color: #DC143C; display: none;">TLA</div>
-                                    <span class="team-name">Tlaxcala FC</span>
-                                </div>
-                            </td>
-                            <td>12</td>
-                            <td>3</td>
-                            <td>7</td>
-                            <td>2</td>
-                            <td>12</td>
-                            <td>11</td>
-                            <td>+1</td>
-                            <td class="points-value">16</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <section class="additional-links">
+      <h2>Más sobre Hakim Briano</h2>
+      <ul>
+        <li><a href="https://www.transfermarkt.mx/trainer/profil/spieler/1064246">Perfil de entrenador</a></li>
+        <li><a href="https://www.transfermarkt.mx/1064246/marktwertverlauf">Evolución de valor</a></li>
+        <li><a href="https://www.transfermarkt.mx/1064246/transferhistorie">Historial de transferencias</a></li>
+      </ul>
+    </section>
+  </main>
 
-                <!-- Table Legend -->
-                <div class="table-legend">
-                    <div class="legend-item">
-                        <span class="legend-color promotion"></span>
-                        <span>Ascenso directo</span>
-                    </div>
-                    <div class="legend-item">
-                        <span class="legend-color playoff"></span>
-                        <span>Playoffs de ascenso</span>
-                    </div>
-                </div>
-            </div>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Transfermarkt.mx – Sitio de estadísticas y noticias de fútbol</p>
+    </div>
+  </footer>
 
-            <!-- Recent Matches -->
-            <div class="recent-matches">
-                <h3>Últimos resultados</h3>
-                <div class="matches-grid">
-                    <div class="match-card">
-                        <div class="match-teams">
-                            <span class="team">Tampico Madero</span>
-                            <span class="score">2-1</span>
-                            <span class="team">Morelia</span>
-                        </div>
-                        <div class="match-date">05/10/2024</div>
-                    </div>
-                    <div class="match-card">
-                        <div class="match-teams">
-                            <span class="team">Celaya</span>
-                            <span class="score">3-0</span>
-                            <span class="team">Cafetaleros</span>
-                        </div>
-                        <div class="match-date">05/10/2024</div>
-                    </div>
-                    <div class="match-card">
-                        <div class="match-teams">
-                            <span class="team">Dorados</span>
-                            <span class="score">1-1</span>
-                            <span class="team">Mineros</span>
-                        </div>
-                        <div class="match-date">06/10/2024</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <script src="src/main.ts"></script>
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-toggle').addEventListener('click', () => {
+      document.querySelector('.main-nav ul').classList.toggle('open');
+    });
+  </script>
 </body>
 </html>
